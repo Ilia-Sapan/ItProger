@@ -1,0 +1,3 @@
+
+Das ist ein String! 
+Neue Zeile, 	Tabulator, das ist ⁄Slash,😀Grinsendes Gesicht, und das ist Schach: ♛

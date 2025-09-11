@@ -1,0 +1,38 @@
+import numpy as np
+import statistics
+
+# === 1️⃣ Среднее значение ===
+data = [2, 4, 6, 8, 10]
+mean_value = statistics.mean(data)  # Среднее арифметическое
+print("Среднее значение:", mean_value)
+
+# === 2️⃣ Медиана ===
+median_value = statistics.median(data)  # Центральное значение в упорядоченных данных
+print("Медиана:", median_value)
+
+# === 3️⃣ Модус ===
+mode_value = statistics.mode([1, 2, 2, 3, 4, 4, 4, 5])  # Самое часто встречающееся значение
+print("Модус:", mode_value)
+
+# === 4️⃣ Дисперсия ===
+variance_sample = statistics.variance(data)  # Выборочная дисперсия (делим на n-1)
+variance_population = statistics.pvariance(data)  # Генеральная дисперсия (делим на n)
+print("Выборочная дисперсия:", variance_sample)
+print("Генеральная дисперсия:", variance_population)
+
+# === 5️⃣ Стандартное отклонение ===
+stdev_sample = statistics.stdev(data)  # Выборочное стандартное отклонение
+stdev_population = statistics.pstdev(data)  # Генеральное стандартное отклонение
+print("Выборочное стандартное отклонение:", stdev_sample)
+print("Генеральное стандартное отклонение:", stdev_population)
+
+# === 6️⃣ Ковариация ===
+X = [1, 2, 3, 4, 5]
+Y = [2, 4, 6, 8, 10]
+
+cov_matrix = np.cov(X, Y, ddof=1)  # Выборочная ковариация
+print("Ковариация:", cov_matrix[0, 1])
+
+# === 7️⃣ Коэффициент корреляции Пирсона ===
+corr_matrix = np.corrcoef(X, Y)  # Коэффициент корреляции
+print("Корреляция Пирсона:", corr_matrix[0, 1])

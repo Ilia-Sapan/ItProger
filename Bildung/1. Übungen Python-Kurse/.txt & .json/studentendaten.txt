@@ -1,0 +1,5 @@
+Name: Anna Müller, Matrikelnummer: 123456, Studiengang: Informatik
+Name: Bernd Schmidt, Matrikelnummer: 654321, Studiengang: Maschinenbau
+Name: Carla Weber, Matrikelnummer: 112233, Studiengang: BWL
+Name: Daniel Fischer, Matrikelnummer: 445566, Studiengang: Physik
+Name: Elena Wagner, Matrikelnummer: 778899, Studiengang: Medizin

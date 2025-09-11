@@ -1,0 +1,30 @@
+import pandas as pd
+
+  1.4.1. Dataframes
+
+  data = {"Alter": [42,3,44], "Ausdauer": [1,2,1]}
+  df = pd.DataFrame(data)
+  print(df)
+ 
+    Eine spezielle Spalte auswählen
+ 
+  alter = df.get("Alter")
+  print(alter)
+ 
+    Eine spezielle Zeile auswählen
+ 
+  zeile0 = df.loc[0]
+  print(zeile0)
+ 
+    Zeilen ausgeben lassen
+ 
+  zeile0 = df.loc[[0,1]]
+  print(zeile0)
+
+
+file = r"C:\Users\isapa\Desktop\Daten.xlsx"
+xl = pd.ExcelFile(file)
+df1 = xl.parse("Tabelle1")
+  zeile1 = df1.loc[0]
+  print(zeile1)
+print(df1)

@@ -1,0 +1,23 @@
+Max, 22, Ludwig-Maximilians-Universität München, Vollzeit
+Lukas, 24, Universität Heidelberg, Teilzeit
+Leon, 21, Technische Universität Berlin, Vollzeit
+Felix, 23, Universität Freiburg, Vollzeit
+Noah, 25, Universität Hamburg, Teilzeit
+Paul, 22, RWTH Aachen, Vollzeit
+Tim, 26, Universität Leipzig, Teilzeit
+Elias, 20, Universität zu Köln, Vollzeit
+Jonas, 23, Universität Mannheim, Vollzeit
+Ben, 22, Humboldt-Universität zu Berlin, Vollzeit
+Finn, 24, Universität Stuttgart, Teilzeit
+Moritz, 21, Universität Bremen, Vollzeit
+Julian, 23, Technische Universität München, Vollzeit
+Fabian, 25, Universität Münster, Teilzeit
+Tom, 22, Universität Erlangen-Nürnberg, Vollzeit
+Anton, 27, Universität Würzburg, Teilzeit
+Niklas, 20, Universität Göttingen, Vollzeit
+Tobias, 24, Universität Bonn, Teilzeit
+Florian, 22, Universität Jena, Vollzeit
+Simon, 25, Universität Duisburg-Essen, Teilzeit
+Ilia, 30, Wien, Vollzeit
+Ellina, 31, Düsseldorf, Teilzeit
+Sascha, 23, Wien, Teilzeit
